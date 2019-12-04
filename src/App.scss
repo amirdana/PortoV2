@@ -1,0 +1,238 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  overflow-x: hidden;
+}
+@import url("https://fonts.googleapis.com/css?family=Caveat&display=swap");
+
+.mynav {
+  position: absolute;
+  height: 80px;
+  width: 100vw;
+  background: rgba(24, 23, 23, 0.356);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  h1 {
+    font-family: "Caveat", cursive;
+  }
+  .nav-itm {
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    a {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-size: 18px;
+      padding: 5px 10px;
+      height: 30px;
+      color: white;
+
+      text-decoration: none;
+      &:nth-child(2) {
+        background: white;
+        color: black;
+        border-radius: 25px;
+      }
+    }
+  }
+}
+
+.mySec1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 800px;
+  width: 100vw;
+  background: url("imgs/head-img.svg") no-repeat;
+  background-size: cover;
+  padding: 0 10px;
+  .head {
+    width: 100%;
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    .head-left {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      h1 {
+        min-height: 100px;
+        font-size: 50px;
+      }
+      p {
+        color: rgb(27, 27, 27);
+        font-size: 18px;
+      }
+      img {
+        margin-top: 10px;
+        width: 40px;
+        height: 40px;
+      }
+    }
+    .head-right {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      img {
+        width: 70%;
+      }
+    }
+  }
+}
+
+.mySec2 {
+  min-height: 600px;
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #f4f4f4;
+  .filter {
+    display: flex;
+    justify-content: center;
+    div {
+      display: flex;
+      justify-content: center;
+      border: 1px solid rgb(35, 127, 155);
+      border-radius: 8px;
+      margin: 0 8px;
+      width: 100px;
+      padding: 5px 15px;
+      transition-duration: 0.5s;
+      font-size: 15px;
+      margin-top: 5px;
+      cursor: pointer;
+      &:hover {
+        background: rgb(37, 121, 189);
+        color: white;
+      }
+    }
+  }
+  .projs {
+    transition-duration: 0.5s;
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    .project1,
+    .project2,
+    .project3,
+    .project4,
+    .project5,
+    .project6 {
+      flex-direction: column;
+      width: 300px;
+      margin-top: 20px;
+      -webkit-box-shadow: 0px 0px 60px -30px rgba(0, 0, 0, 0.75);
+      -moz-box-shadow: 0px 0px 60px -30px rgba(0, 0, 0, 0.75);
+      box-shadow: 0px 0px 60px -30px rgba(0, 0, 0, 0.75);
+      .holder {
+        height: 250px;
+      }
+      img {
+        width: 100%;
+        height: 250px;
+        object-fit: cover;
+      }
+      div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: rgb(255, 255, 255);
+        width: 100%;
+        height: 80px;
+        text-align: center;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .head {
+    margin-top: 150px;
+    .head-left {
+      width: 80%;
+      text-align: center;
+      margin: auto;
+    }
+    .head-right {
+      img {
+        margin-top: 50px;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 776px) {
+  .mynav {
+    h1 {
+      display: none;
+    }
+  }
+  .head {
+    margin-top: 50px;
+    .head-left {
+      width: 80%;
+      text-align: center;
+      margin: auto;
+    }
+  }
+}
+@media only screen and (max-width: 576px) {
+  .mynav {
+    .nav-itm {
+      width: 100px;
+    }
+  }
+  .head {
+    margin-top: 50px;
+    .head-left {
+      width: 100%;
+      text-align: center;
+      margin: auto;
+    }
+    .head-right {
+      img {
+        margin-top: 25px;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 350px) {
+  .mySec2 {
+    .filter {
+      flex-direction: column;
+      align-items: center;
+      div {
+        width: 70%;
+      }
+    }
+  }
+  .mySec2 {
+    .projs {
+      margin: auto;
+      width: 90%;
+    }
+  }
+  .mySec1 {
+    align-items: flex-start;
+    .head {
+      margin-top: 150px;
+      .head-right {
+        img {
+          display: none;
+        }
+      }
+    }
+  }
+}
