@@ -10,7 +10,7 @@ function Sec1() {
       loop: true
     });
     typewriter
-      .typeString("I'm a Fullstack-dev")
+      .typeString("Im a Fullstack-dev")
       .pauseFor(200)
       .deleteChars(13)
       .typeString("Front-end master")
@@ -28,6 +28,10 @@ function Sec1() {
         <div className="col-lg-6 p-0 head-left">
           <div className="col-md-9 col-sm-12">
             <h1 className=" text-white" id="app"></h1>
+            <div className="row d-flex justif-content-center">
+              <img src={gith} alt="" />
+              <p className="lead">Feel free to check out my PROJECTS.</p>
+            </div>
           </div>
         </div>
         <div className="col-lg-6 p-0 head-right">

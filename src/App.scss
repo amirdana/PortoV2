@@ -63,17 +63,27 @@ body {
       justify-content: center;
       align-items: center;
       h1 {
-        min-height: 100px;
+        min-height: 120px;
         font-size: 50px;
       }
       p {
         color: rgb(27, 27, 27);
         font-size: 18px;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        font-weight: 600;
+        color: white;
+        padding-left: 10px;
       }
       img {
         margin-top: 10px;
         width: 40px;
         height: 40px;
+        margin: 0;
+        margin-left: 10px;
+
+        cursor: pointer;
       }
     }
     .head-right {
@@ -88,7 +98,7 @@ body {
 }
 
 .mySec2 {
-  min-height: 600px;
+  min-height: 1000px;
   width: 100%;
   display: flex;
   overflow: hidden;
@@ -96,24 +106,41 @@ body {
   align-items: center;
   justify-content: center;
   background: #f4f4f4;
+  transition-duration: 0.5s;
+  transition-property: all;
+  h1 {
+    font-family: "Caveat", cursive;
+  }
+  hr {
+    width: 200px;
+    margin: auto;
+    background: rgb(107, 107, 107);
+    margin-bottom: 30px;
+  }
   .filter {
     display: flex;
     justify-content: center;
+
     div {
       display: flex;
       justify-content: center;
-      border: 1px solid rgb(35, 127, 155);
-      border-radius: 8px;
+      border: 1px solid rgb(68, 68, 68);
+      border-radius: 50px;
+      font-family: "Caveat", cursive;
       margin: 0 8px;
-      width: 100px;
+      width: 80px;
       padding: 5px 15px;
-      transition-duration: 0.5s;
-      font-size: 15px;
+      transition-duration: 0.2s;
+      font-size: 16px;
+      font-weight: 600;
+      color: rgb(68, 68, 68);
       margin-top: 5px;
       cursor: pointer;
       &:hover {
         background: rgb(37, 121, 189);
+        border: white;
         color: white;
+        transform: translateY(-5px);
       }
     }
   }
@@ -123,7 +150,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 80%;
+    padding: 0 50px;
     margin: auto;
     .project1,
     .project2,
@@ -131,8 +158,10 @@ body {
     .project4,
     .project5,
     .project6 {
+      transition-duration: 0.5s;
       flex-direction: column;
       width: 300px;
+
       margin-top: 20px;
       -webkit-box-shadow: 0px 0px 60px -30px rgba(0, 0, 0, 0.75);
       -moz-box-shadow: 0px 0px 60px -30px rgba(0, 0, 0, 0.75);
@@ -155,6 +184,62 @@ body {
         text-align: center;
       }
     }
+  }
+}
+
+.mySec3 {
+  background: url("./imgs/sec2bg.svg") no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  min-height: 900px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  overflow-x: hidden;
+  h1 {
+    font-family: "Caveat", cursive;
+  }
+  hr {
+    width: 200px;
+
+    background: rgb(107, 107, 107);
+    margin-bottom: 30px;
+  }
+  .mobile-res,
+  .web-res {
+    display: flex;
+    justify-content: flex-start;
+    align-self: center;
+    flex-direction: column;
+    width: 300px;
+    min-height: 550px;
+    background: white;
+    border-radius: 10px;
+    background-size: cover;
+    -webkit-box-shadow: 0px 0px 60px -30px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 60px -30px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 60px -30px rgba(0, 0, 0, 0.75);
+    margin-top: 20px;
+
+    p {
+      color: rgb(83, 83, 83);
+    }
+    a {
+      text-decoration: none;
+    }
+    img {
+      margin-top: 50px;
+      width: 80px;
+      opacity: 0.8;
+    }
+  }
+  .mobile-res {
+    background-image: url("./imgs/Frame1.svg");
+  }
+  .web-res {
+    background-image: url("./imgs/Frame3.svg");
   }
 }
 
@@ -209,21 +294,15 @@ body {
   }
 }
 @media only screen and (max-width: 350px) {
+  .s3ct {
+    width: 300px;
+  }
   .mySec2 {
     .filter {
-      flex-direction: column;
-      align-items: center;
-      div {
-        width: 70%;
-      }
+      display: none;
     }
   }
-  .mySec2 {
-    .projs {
-      margin: auto;
-      width: 90%;
-    }
-  }
+
   .mySec1 {
     align-items: flex-start;
     .head {
