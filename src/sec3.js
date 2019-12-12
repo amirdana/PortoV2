@@ -32,10 +32,10 @@ function Sec3() {
                 </div>
                 <div className="text-center mt-5">
                   <h6 className="mb-5">Main Skills</h6>
-                  <p>ES2019 & OOP</p>
+                  <p>ES2019 & js OOP</p>
                   <p>React.js</p>
                   <p>PHP & MySQL</p>
-                  <p>Node & Express Basics</p>
+                  <p>Node & Express.js Basics</p>
                   <p>UI/UX</p>
                   <a href="https://jobinja.ir/user/RQ-2433343">Full list</a>
                 </div>
