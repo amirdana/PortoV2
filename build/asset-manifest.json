@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3987adf4.chunk.css",
+    "main.js": "/static/js/main.bc29219d.chunk.js",
+    "main.js.map": "/static/js/main.bc29219d.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.b568d513.js",
+    "runtime-main.js.map": "/static/js/runtime-main.b568d513.js.map",
+    "static/js/2.dd07e4a4.chunk.js": "/static/js/2.dd07e4a4.chunk.js",
+    "static/js/2.dd07e4a4.chunk.js.map": "/static/js/2.dd07e4a4.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.7e6d5b39c452e230db008014f2db7004.js": "/precache-manifest.7e6d5b39c452e230db008014f2db7004.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.3987adf4.chunk.css.map": "/static/css/main.3987adf4.chunk.css.map",
+    "static/media/App.css": "/static/media/sec2bg.3673f4c4.svg",
+    "static/media/Mdesigne-min.png": "/static/media/Mdesigne-min.f05ba7ed.png",
+    "static/media/android.svg": "/static/media/android.bb9a18ec.svg",
+    "static/media/dash.png": "/static/media/dash.9a9b6ff6.png",
+    "static/media/headimg-min.png": "/static/media/headimg-min.26b252dc.png",
+    "static/media/hnad.jpg": "/static/media/hnad.96de676a.jpg",
+    "static/media/p-1.svg": "/static/media/p-1.6089f194.svg",
+    "static/media/p2-min.jpg": "/static/media/p2-min.71261bdf.jpg",
+    "static/media/web.jpg": "/static/media/web.3493acfb.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b568d513.js",
+    "static/js/2.dd07e4a4.chunk.js",
+    "static/css/main.3987adf4.chunk.css",
+    "static/js/main.bc29219d.chunk.js"
+  ]
+}
