@@ -80,6 +80,7 @@ body {
   background: url("imgs/head-img.svg") no-repeat;
   background-size: cover;
   padding: 0 10px;
+  overflow-x: hidden;
 }
 
 .mySec1 .head {
@@ -151,7 +152,7 @@ body {
 }
 
 .mySec1 .head .head-right img {
-  width: 70%;
+  width: 550px;
 }
 
 .mySec2 {
@@ -183,7 +184,7 @@ body {
 }
 
 .mySec2 hr {
-  width: 200px;
+  width: 250px;
   margin: auto;
   background: #6b6b6b;
   margin-bottom: 30px;
@@ -258,9 +259,11 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   width: 300px;
+  margin-bottom: 20px;
   margin-top: 20px;
   -webkit-box-shadow: 0px 0px 60px -30px rgba(0, 0, 0, 0.75);
   box-shadow: 0px 0px 60px -30px rgba(0, 0, 0, 0.75);
+  cursor: pointer;
 }
 
 .mySec2 .projs .project1 .holder,
@@ -305,6 +308,10 @@ body {
   text-align: center;
 }
 
+.mySec2 .projs .project5 {
+  cursor: not-allowed;
+}
+
 .mySec3 {
   background: url("./imgs/sec2bg.svg") no-repeat;
   background-position: bottom;
@@ -325,6 +332,7 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   overflow-x: hidden;
+  padding-bottom: 40px;
 }
 
 .mySec3 h1 {
@@ -406,11 +414,13 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   min-height: 130px;
+  padding: 20px;
 }
 
 .myFooter p {
   margin: 0;
   margin-bottom: 5px;
+  text-align: center;
 }
 
 .myFooter img {
@@ -453,20 +463,20 @@ body {
   .head {
     margin-top: 50px;
   }
-  .head .head-left {
+  .head .head-left div {
     width: 100%;
     text-align: center;
     margin: auto;
   }
+  .head .head-left div img {
+    display: none;
+  }
   .head .head-right img {
-    margin-top: 25px;
+    display: none;
   }
 }
 
 @media only screen and (max-width: 350px) {
-  .s3ct {
-    width: 300px;
-  }
   .mySec2 .filter {
     display: none;
   }
@@ -478,8 +488,21 @@ body {
   .mySec1 .head {
     margin-top: 150px;
   }
+  .mySec1 .head .head-left p {
+    margin-top: 20px;
+  }
   .mySec1 .head .head-right img {
-    display: none;
+    width: 300px;
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  .projs,
+  .head {
+    width: 1600px;
+  }
+  .mySec1 .head {
+    width: 1400px;
   }
 }
 /*# sourceMappingURL=App.css.map */

@@ -28,9 +28,9 @@ function Sec1() {
         <div className="col-lg-6 p-0 head-left">
           <div className="col-md-10 col-sm-12">
             <h1 className=" text-white" id="app"></h1>
-            <div className="row d-flex justif-content-center">
-              <img src={gith} alt="" />
-              <p className="lead">Feel free to check out my PROJECTS.</p>
+            <div className="row">
+              <img className="mt-4" src={gith} alt="" />
+              <p className="mt-4">Feel free to check out my PROJECTS.</p>
             </div>
           </div>
         </div>

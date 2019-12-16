@@ -44,13 +44,34 @@ function Sec2() {
       });
     }
   };
+
+  let demo = num => {
+    switch (num) {
+      case 3:
+        window.open("http://rentic.ir/handtrack/index.html");
+        break;
+
+      case 2:
+        window.open("http://rentic.ir/Mdesigne/index.html");
+        break;
+
+      case 4:
+        window.open("http://rentic.ir/dash/index.html");
+        break;
+      case 1:
+        window.open("http://rentic.ir/instagramUI/p2.html");
+        break;
+      case 6:
+        window.open("http://rentic.ir/weatherSt/p-1.html");
+        break;
+    }
+  };
   return (
     <section className="mySec2 ">
       <div className="column ">
-        <h1 className="text-center text-dark">Projects</h1>
+        <h1 className="text-center text-dark">Some Projects</h1>
         <hr />
         <div className="row filter">
-          <div onClick={() => filter(0)}>All</div>
           <div onClick={() => filter(1)}>UI/UX</div>
           <div onClick={() => filter(2)}>Front</div>
           <div onClick={() => filter(3)}>Back</div>
@@ -59,14 +80,20 @@ function Sec2() {
           <div
             id="p2"
             className="col-lg-4 col-md-6 d-flex justify-content-center"
+            data-aos="fade-up"
           >
-            <div className="project3">
+            <div
+              onClick={() => {
+                demo(3);
+              }}
+              className="project3"
+            >
               <div className="holder">
-                <img src={p4} alt="" />
+                <img src={p6} alt="" />
               </div>
               <div className="flex-column">
-                <h5>Weather API</h5>
-                <small>Weather Stats via API fetch</small>
+                <h5>Hand Detection</h5>
+                <small>Third Party Library</small>
               </div>
             </div>
           </div>
@@ -74,8 +101,15 @@ function Sec2() {
           <div
             id="p1"
             className="col-lg-4 col-md-6 d-flex justify-content-center"
+            data-aos="fade-up"
+            data-aos-delay="50"
           >
-            <div className="project2">
+            <div
+              onClick={() => {
+                demo(2);
+              }}
+              className="project2"
+            >
               <div className="holder">
                 <img src={p3} alt="" />
               </div>
@@ -88,8 +122,15 @@ function Sec2() {
           <div
             id="p2"
             className="col-lg-4 col-md-6 d-flex justify-content-center"
+            data-aos="fade-up"
+            data-aos-delay="150"
           >
-            <div className="project3">
+            <div
+              onClick={() => {
+                demo(4);
+              }}
+              className="project4"
+            >
               <div className="holder">
                 <img src={p5} alt="" />
               </div>
@@ -102,8 +143,15 @@ function Sec2() {
           <div
             id="p1"
             className="col-lg-4 col-md-6 d-flex justify-content-center"
+            data-aos="fade-up"
+            data-aos-delay="200"
           >
-            <div className="project1">
+            <div
+              onClick={() => {
+                demo(1);
+              }}
+              className="project1"
+            >
               <div className="holder">
                 <img src={form} alt="" />
               </div>
@@ -114,24 +162,39 @@ function Sec2() {
             </div>
           </div>
           <div
-            id="p2"
+            id="p3"
             className="col-lg-4 col-md-6 d-flex justify-content-center"
+            data-aos="fade-up"
+            data-aos-delay="250"
           >
-            <div className="project3">
-              <div className="holder">
-                <img src={p6} alt="" />
+            <div
+              onClick={() => {
+                demo(5);
+              }}
+              className="project5"
+            >
+              <div className="holder bg-secondary">
+                <h5 className="text-white pt-3">*Not Deployed Yet ...*</h5>
               </div>
               <div className="flex-column">
-                <h5>Hand Detection</h5>
-                <small>Third Party Lib</small>
+                <h5>Online Store</h5>
+                <small>Full-Stack client project</small>
               </div>
             </div>
           </div>
+
           <div
             id="p3"
             className="col-lg-4 col-md-6 d-flex justify-content-center"
+            data-aos="fade-up"
+            data-aos-delay="300"
           >
-            <div className="project3">
+            <div
+              onClick={() => {
+                demo(6);
+              }}
+              className="project6"
+            >
               <div className="holder">
                 <img src={p4} alt="" />
               </div>
