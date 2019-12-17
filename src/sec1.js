@@ -30,7 +30,7 @@ function Sec1() {
             <h1 className=" text-white" id="app"></h1>
             <div className="row">
               <a href="https://github.com/amirdana">
-                <img src={gith} alt="" />
+                <img className="mt-3" src={gith} alt="" />
               </a>
               <p className="mt-4">Feel free to check out my PROJECTS.</p>
             </div>
