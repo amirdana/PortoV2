@@ -64,6 +64,9 @@ function Sec2() {
       case 6:
         window.open("http://rentic.ir/weatherSt/p-1.html");
         break;
+      case 5:
+        window.open("https://github.com/amirdana/bono");
+        break;
     }
   };
   return (

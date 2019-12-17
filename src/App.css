@@ -308,10 +308,6 @@ body {
   text-align: center;
 }
 
-.mySec2 .projs .project5 {
-  cursor: not-allowed;
-}
-
 .mySec3 {
   background: url("./imgs/sec2bg.svg") no-repeat;
   background-position: bottom;
