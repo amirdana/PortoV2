@@ -4,7 +4,9 @@ function Footer() {
   return (
     <footer>
       <div className="myFooter">
-        <img src={gits} alt="" />
+        <a href="https://github.com/amirdana">
+          <img src={gits} alt="" />
+        </a>
 
         <p>Desing & Developed By AmirHossein Lavasani Dana</p>
         <p>CSR With React.js</p>

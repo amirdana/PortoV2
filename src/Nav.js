@@ -7,9 +7,9 @@ function Nav() {
         <h1 className="text-white">Amir Dana</h1>
 
         <div className=" nav-itm">
-          <a href="">Home</a>
-          <a href="">Resume</a>
-          <a href="">Github</a>
+          <a href="https://www.amirdana.ir/">Home</a>
+          <a href="https://jobinja.ir/user/RQ-2433343">Resume</a>
+          <a href="https://github.com/amirdana">Github</a>
           <a href="">Contact</a>
         </div>
       </div>

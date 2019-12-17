@@ -29,7 +29,9 @@ function Sec1() {
           <div className="col-md-10 col-sm-12">
             <h1 className=" text-white" id="app"></h1>
             <div className="row">
-              <img className="mt-4" src={gith} alt="" />
+              <a href="https://github.com/amirdana">
+                <img src={gits} alt="" />
+              </a>
               <p className="mt-4">Feel free to check out my PROJECTS.</p>
             </div>
           </div>
