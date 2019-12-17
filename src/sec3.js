@@ -10,7 +10,10 @@ function Sec3() {
         <hr />
         <div className="s3ct">
           <div className="row ">
-            <div className="col-md-6 d-flex justify-content-center">
+            <div
+              data-aos="fade-up"
+              className="col-md-6 d-flex justify-content-center"
+            >
               <div className="mobile-res">
                 <div className="text-center">
                   <img src={mobile} alt="dd" />
@@ -25,7 +28,10 @@ function Sec3() {
                 </div>
               </div>
             </div>
-            <div className="col-md-6 d-flex justify-content-center">
+            <div
+              data-aos="fade-up"
+              className="col-md-6 d-flex justify-content-center"
+            >
               <div className="web-res">
                 <div className="text-center">
                   <img src={web} alt="dd" />
