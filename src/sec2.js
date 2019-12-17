@@ -45,8 +45,8 @@ function Sec2() {
     }
   };
 
-  let demo = num => {
-    switch (num) {
+  let demo = x => {
+    switch (x) {
       case 3:
         window.open("http://rentic.ir/handtrack/index.html");
         break;
