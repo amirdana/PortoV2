@@ -331,6 +331,10 @@ body {
   padding-bottom: 40px;
 }
 
+.mySec3 .s3ct {
+  width: 800px;
+}
+
 .mySec3 h1 {
   font-family: "Caveat", cursive;
 }
