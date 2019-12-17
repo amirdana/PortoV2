@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.c32e194a.chunk.css",
+    "main.css": "/static/css/main.7a5cdc44.chunk.css",
     "main.js": "/static/js/main.51375e0d.chunk.js",
     "main.js.map": "/static/js/main.51375e0d.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b568d513.js",
@@ -8,9 +8,9 @@
     "static/js/2.dd07e4a4.chunk.js": "/static/js/2.dd07e4a4.chunk.js",
     "static/js/2.dd07e4a4.chunk.js.map": "/static/js/2.dd07e4a4.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.b229962dc1be356daabb086812ff4596.js": "/precache-manifest.b229962dc1be356daabb086812ff4596.js",
+    "precache-manifest.01020128e8dcca0da541619d75701fc5.js": "/precache-manifest.01020128e8dcca0da541619d75701fc5.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.c32e194a.chunk.css.map": "/static/css/main.c32e194a.chunk.css.map",
+    "static/css/main.7a5cdc44.chunk.css.map": "/static/css/main.7a5cdc44.chunk.css.map",
     "static/media/App.css": "/static/media/sec2bg.3673f4c4.svg",
     "static/media/Mdesigne-min.png": "/static/media/Mdesigne-min.f05ba7ed.png",
     "static/media/android.svg": "/static/media/android.bb9a18ec.svg",
@@ -24,7 +24,7 @@
   "entrypoints": [
     "static/js/runtime-main.b568d513.js",
     "static/js/2.dd07e4a4.chunk.js",
-    "static/css/main.c32e194a.chunk.css",
+    "static/css/main.7a5cdc44.chunk.css",
     "static/js/main.51375e0d.chunk.js"
   ]
 }
