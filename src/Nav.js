@@ -10,7 +10,7 @@ function Nav() {
           <a href="https://www.amirdana.ir/">Home</a>
           <a href="https://jobinja.ir/user/RQ-2433343">Resume</a>
           <a href="https://github.com/amirdana">Github</a>
-          <a href="">Contact</a>
+          
         </div>
       </div>
     </div>
