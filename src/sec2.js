@@ -84,48 +84,6 @@ function Sec2() {
             id="p2"
             className="col-lg-4 col-md-6 d-flex justify-content-center"
             data-aos="fade-up"
-          >
-            <div
-              onClick={() => {
-                demo(3);
-              }}
-              className="project3"
-            >
-              <div className="holder">
-                <img src={p6} alt="" />
-              </div>
-              <div className="flex-column">
-                <h5>Hand Detection</h5>
-                <small>Third Party Library</small>
-              </div>
-            </div>
-          </div>
-
-          <div
-            id="p1"
-            className="col-lg-4 col-md-6 d-flex justify-content-center"
-            data-aos="fade-up"
-            data-aos-delay="50"
-          >
-            <div
-              onClick={() => {
-                demo(2);
-              }}
-              className="project2"
-            >
-              <div className="holder">
-                <img src={p3} alt="" />
-              </div>
-              <div className="flex-column">
-                <h5>Modern Designe</h5>
-                <small>Modern UI</small>
-              </div>
-            </div>
-          </div>
-          <div
-            id="p2"
-            className="col-lg-4 col-md-6 d-flex justify-content-center"
-            data-aos="fade-up"
             data-aos-delay="150"
           >
             <div
@@ -161,6 +119,48 @@ function Sec2() {
               <div className="flex-column">
                 <h5>Instagram</h5>
                 <small>Instagram UI</small>
+              </div>
+            </div>
+          </div>
+          <div
+            id="p1"
+            className="col-lg-4 col-md-6 d-flex justify-content-center"
+            data-aos="fade-up"
+            data-aos-delay="50"
+          >
+            <div
+              onClick={() => {
+                demo(2);
+              }}
+              className="project2"
+            >
+              <div className="holder">
+                <img src={p3} alt="" />
+              </div>
+              <div className="flex-column">
+                <h5>Modern Designe</h5>
+                <small>Modern UI</small>
+              </div>
+            </div>
+          </div>
+
+          <div
+            id="p2"
+            className="col-lg-4 col-md-6 d-flex justify-content-center"
+            data-aos="fade-up"
+          >
+            <div
+              onClick={() => {
+                demo(3);
+              }}
+              className="project3"
+            >
+              <div className="holder">
+                <img src={p6} alt="" />
+              </div>
+              <div className="flex-column">
+                <h5>Hand Detection</h5>
+                <small>Third Party Library</small>
               </div>
             </div>
           </div>
