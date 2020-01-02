@@ -329,6 +329,7 @@ body {
           flex-direction: column;
   overflow-x: hidden;
   padding-bottom: 40px;
+  overflow-y: hidden;
 }
 
 .mySec3 .s3ct {
