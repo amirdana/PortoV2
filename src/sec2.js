@@ -3,7 +3,7 @@ import form from "./imgs/p2-min.jpg";
 import p3 from "./imgs/Mdesigne-min.png";
 import p4 from "./imgs/p-1.svg";
 import p5 from "./imgs/dash.png";
-import p6 from "./imgs/hnad.jpg";
+import p6 from "./imgs/md2.png";
 
 function Sec2() {
   const filter = x => {
@@ -48,7 +48,7 @@ function Sec2() {
   let demo = x => {
     switch (x) {
       case 3:
-        window.open("http://rentic.ir/handtrack/index.html");
+        window.open("http://rentic.ir/Mdesigne2/index.html");
         break;
 
       case 2:
@@ -105,6 +105,48 @@ function Sec2() {
             id="p1"
             className="col-lg-4 col-md-6 d-flex justify-content-center"
             data-aos="fade-up"
+          >
+            <div
+              onClick={() => {
+                demo(3);
+              }}
+              className="project3"
+            >
+              <div className="holder">
+                <img src={p6} alt="" />
+              </div>
+              <div className="flex-column">
+                <h5>Modern Design</h5>
+                <small>UI Implementation</small>
+              </div>
+            </div>
+          </div>
+
+          <div
+            id="p1"
+            className="col-lg-4 col-md-6 d-flex justify-content-center"
+            data-aos="fade-up"
+            data-aos-delay="50"
+          >
+            <div
+              onClick={() => {
+                demo(2);
+              }}
+              className="project2"
+            >
+              <div className="holder">
+                <img src={p3} alt="" />
+              </div>
+              <div className="flex-column">
+                <h5>Modern Design</h5>
+                <small>Modern UI</small>
+              </div>
+            </div>
+          </div>
+          <div
+            id="p1"
+            className="col-lg-4 col-md-6 d-flex justify-content-center"
+            data-aos="fade-up"
             data-aos-delay="200"
           >
             <div
@@ -122,48 +164,7 @@ function Sec2() {
               </div>
             </div>
           </div>
-          <div
-            id="p1"
-            className="col-lg-4 col-md-6 d-flex justify-content-center"
-            data-aos="fade-up"
-            data-aos-delay="50"
-          >
-            <div
-              onClick={() => {
-                demo(2);
-              }}
-              className="project2"
-            >
-              <div className="holder">
-                <img src={p3} alt="" />
-              </div>
-              <div className="flex-column">
-                <h5>Modern Designe</h5>
-                <small>Modern UI</small>
-              </div>
-            </div>
-          </div>
 
-          <div
-            id="p2"
-            className="col-lg-4 col-md-6 d-flex justify-content-center"
-            data-aos="fade-up"
-          >
-            <div
-              onClick={() => {
-                demo(3);
-              }}
-              className="project3"
-            >
-              <div className="holder">
-                <img src={p6} alt="" />
-              </div>
-              <div className="flex-column">
-                <h5>Hand Detection</h5>
-                <small>Third Party Library</small>
-              </div>
-            </div>
-          </div>
           <div
             id="p3"
             className="col-lg-4 col-md-6 d-flex justify-content-center"
@@ -177,7 +178,7 @@ function Sec2() {
               className="project5"
             >
               <div className="holder bg-secondary flex-column">
-                <h5 className="text-white pt-3">*Not Deployed Yet ...*</h5>
+                <h5 className="text-white pt-3">Not Deployed Yet ...</h5>
                 <h5 className="text-white pt-3">See On GitHub</h5>
               </div>
               <div className="flex-column">
