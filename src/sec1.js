@@ -21,7 +21,6 @@ function Sec1() {
       .start();
     //end
   });
-
   return (
     <section className="mySec1">
       <div className="row head">

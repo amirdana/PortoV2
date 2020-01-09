@@ -51,6 +51,7 @@ body {
   width: 100vw;
   background: url("imgs/head-img.svg") no-repeat;
   background-size: cover;
+  background-position-y: bottom;
   padding: 0 10px;
   overflow-x: hidden;
   .head {
@@ -192,7 +193,7 @@ body {
 
 .mySec3 {
   background: url("./imgs/sec2bg.svg") no-repeat;
-  background-position: bottom;
+  background-position-y: top;
   background-size: cover;
   min-height: 900px;
   width: 100%;
@@ -360,7 +361,18 @@ body {
   }
   .mySec1 {
     .head {
-      width: 1400px;
+      width: 1600px;
+    }
+  }
+}
+@media only screen and (min-width: 1850px) {
+  .projs,
+  .head {
+    width: 1850px;
+  }
+  .mySec1 {
+    .head {
+      width: 1850px;
     }
   }
 }
