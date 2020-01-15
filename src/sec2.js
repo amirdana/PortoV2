@@ -65,7 +65,7 @@ function Sec2() {
         window.open("http://rentic.ir/weatherSt/p-1.html");
         break;
       case 5:
-        window.open("https://github.com/amirdana/bono");
+        window.open("https://www.bonzo.ir");
         break;
     }
   };
@@ -178,8 +178,7 @@ function Sec2() {
               className="project5"
             >
               <div className="holder bg-secondary flex-column">
-                <h5 className="text-white pt-3">Not Deployed Yet ...</h5>
-                <h5 className="text-white pt-3">See On GitHub</h5>
+                
               </div>
               <div className="flex-column">
                 <h5>Online Store</h5>
